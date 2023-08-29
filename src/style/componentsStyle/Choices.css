@@ -1,0 +1,172 @@
+.main{
+    margin-left: 100px;
+    margin-top: 36px;
+    margin-right: 100px;
+    }
+    .logo{
+        width: 214px;
+        height: 62px;
+    }
+    .header{
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin-bottom: 36px;
+    }
+    
+    .menuh{
+        width: max-content;
+        display: flex;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .user{
+        width: 85px;
+        height: 85px;
+    }
+    .his-btn{
+        font-size: 30px;
+        margin-right: 28px;
+    }
+    .bodyc{
+        height: 350px;
+        display: grid;
+        align-items: center;
+    }
+    .center-text{
+        text-align: center;
+        align-items: center;
+        font-size: 24px;
+    }
+    .des{
+        font-size:24px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .coiceS{
+        display: flex;
+        height: 504px;
+        overflow: auto;
+        flex-wrap: wrap;
+    }
+    .coice-g{
+        
+        background-color: #09947F!important;
+        color: rgba(255, 255, 255, 0.9)!important;
+    }
+    .coice-r{
+        
+        background-color: #B30202!important;
+        color: rgba(255, 255, 255, 0.9)!important;
+    }
+    .coice-ele{
+        width: 191px;
+        height: 28px;
+        background-color:rgba(255, 255, 255, 0.9);
+        text-align: center;
+        color: #082F47;
+        display: grid;
+        align-items: center;
+        margin: 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-bottom: 6px;
+    }
+    .pageChan{
+        text-align: center;
+    }
+    .ele-bt{
+        width: 175px;
+        height: 45px;
+        background-color: #0085FF;
+        color: white;
+        border-radius: 9px;
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 0px solid;
+box-shadow: 0px 0px 4px 4px #2222224d;
+margin-bottom: 34px;
+
+    }
+    .btn-start{
+        margin: 0px 80px 0px 80px;
+text-align: center;
+position: relative;
+align-items: center;
+ 
+padding: 10px 30px 10px 30px;
+height: 30px;
+background-color: #5A80DF;
+color: #ffff;
+border: 0px solid ;
+border-radius: 5px;
+box-shadow: 0px 0px 4px 4px #3434344d;
+display: inline-flex;
+    }
+    .btn-start:hover{
+background-color: #05619b;
+
+
+    }
+    .ele-bt:hover{
+background-color: #05619b;
+
+    }
+
+    .div-logo{
+        max-width: 680px;
+        /* text-align: center; */
+        /* border: 1px solid crimson; */
+        /* height: 100vh; */
+        margin: 0 auto  ;
+        position: relative;
+    }
+    .logo-b{
+        /* z-index: 0; */
+        position: absolute;
+        /* width: 749px;
+        bottom: -405px;
+        left: 1%; */
+        max-width: 100%;
+        top: 27px;
+display: block;
+    }
+    
+    html{
+        background-color: #015A93!important;
+    }
+    @media (max-width: 1300px){
+
+    }
+ 
+    @media (max-width: 720px){
+        .coice-ele {
+            width: 166px;
+                  }
+    }
+    @media (max-width: 620px){
+        .ele-bt{
+            width: 80px;
+            font-size: 13px;
+            height: 31px;
+                  }
+    }
+    @media (max-width: 480px){
+
+        .btn-start {
+            padding: 0px;
+            width: 58px;
+            padding-left: 9px;
+        }
+
+        .center-text {
+            font-size: 16px;
+        }
+        .ele-bt{
+          width: 80px;
+          font-size: 13px;
+            
+                }
+    }

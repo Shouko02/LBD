@@ -1,0 +1,322 @@
+html {
+    background-color: #015a93;
+
+}
+
+.Main {}
+
+.logo-new1 {
+    width: 214px;
+    padding: 6px;
+    margin: 10px 0px 0px 60px;
+}
+
+.header {
+    /* border: 2px solid #ff8000; */
+
+}
+
+.images-person {
+    width: 530px;
+    max-width: 100%;
+    margin-bottom: 57px;
+    /* margin-left: 74px; */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    /* margin-top: 300px; */
+}
+
+.con-img {
+    /* border: 2px solid #ff8000; */
+    width: 1500px;
+    text-align: center;
+    /* max-width: 100px; */
+
+}
+
+.con-login {
+    /* border: 2px solid #ff8000; */
+}
+
+.con-text {
+    /* border: 2px solid #ff0000; */
+    max-width: 100%;
+    display: flex;
+
+}
+
+.login {
+    /* border: 2px solid #ff8000; */
+    align-items: center;
+
+}
+
+.con-box {
+    /* border: 2px solid #856200; */
+    max-width: 100%;
+    height: 130px;
+}
+
+.left-box {
+    /* border: 2px solid #304fff; */
+    max-width: 100%;
+    width: 833px;
+}
+
+.con-a {
+    max-width: 100%;
+    /* border: 2px solid #00ff15; */
+    width: 531px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 65px;
+
+}
+
+.text {
+    color: #ffffff;
+    height: 200px;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.logo1 {
+    width: 28px;
+    max-width: 100%;
+    height: 28px;
+    /* width: 44px; */
+    /* max-width: 100%; */
+    padding-right: 10px;
+    padding-left: 24px;
+
+}
+
+.btn-Login {
+    padding: 4px;
+    width: 227px;
+    height: 62px;
+    border-radius: 34px;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .con-a {
+        font-size: 44px;
+    }
+
+    .text {
+
+        font-size: 15px;
+    }
+
+    .logo-new1 {
+        width: 214px;
+        padding: 6px;
+        margin: 10px 0px 0px 10px;
+    }
+
+    @media (max-width: 900px) {
+        .images-person {
+            width: 530px;
+            max-width: 100%;
+            margin-left: 60px;
+        }
+        .logo-new1 {
+            width: 144px;
+            padding: 6px;
+            margin: 10px 0px 0px 10px;
+        }
+
+        @media (max-width: 750px) {
+            .images-person {
+                width: 530px;
+                max-width: 100%;
+                margin-left: 15px;
+            }
+
+
+        @media (max-width: 800px) {
+            .con-a {
+                font-size: 40px;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+
+          
+
+            @media (max-width: 700px) {
+                .con-a {
+                    font-size: 35px;
+                }
+
+                .text {
+                    font-size: 13px;
+                }
+                .btn-Login {
+                    padding: 4px;
+                    width: 227px;
+                    height: 44px;
+                    border-radius: 34px;
+                    border: 1px solid #000;
+                  }
+
+                @media (max-width: 600px) {
+                    .con-a {
+                        font-size: 30px;
+                    }
+
+                    .text {
+                        font-size: 12px;
+                    }
+
+                    @media (max-width: 550px) {
+                        .con-a {
+                            font-size: 25px;
+                        }
+
+                        .text {
+                            font-size: 12px;
+                        }
+
+                        @media (max-width: 480px) {
+                            .con-a {
+                                font-size: 20px;
+                                height: 9px;
+                            }
+
+                            .text {
+                                font-size: 10px;
+                                height: 80px;
+                            }
+
+                            .logo-new1 {
+                                width: 128px;
+                                padding: 6px;
+                                margin: 4px 0px 0px 0px;
+                            }
+
+                            .btn-Login {
+                                padding: 4px;
+                                width: 186px;
+                                height: 40px;
+                                margin-top: 102px;
+                                margin-left: -242px;
+                            }
+
+                            .logo1 {
+                                padding-left: 4px;
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.t-b {
+    margin-top: 7px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+.nav-bottom {
+    background-color: #ffffff;
+    display: flex;
+    box-shadow: 0px 0px 4px 2px #3635355a;
+
+}
+
+.div-link {
+    width: 1070px;
+}
+
+.facebook-button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 70px;
+    left: 0;
+
+
+}
+
+.img-fb {
+
+    max-width: 100%;
+}
+
+.youtube-button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 70px;
+    left: 0;
+
+
+}
+
+.img-yt {
+
+    border-radius: 0px;
+    max-width: 100%;
+    margin-bottom: -43px;
+    margin-left: 15px;
+}
+
+.contact {
+    /* border: 1px solid rgb(255, 16, 16); */
+    display: flex;
+    width: 198px;
+}
+
+@media (max-width: 1200px) {
+    .nav-bottom {
+        display: none;
+    }
+  
+
+}
+
+.nav-h {
+   /* display: none; */
+}
